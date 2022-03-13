@@ -24,7 +24,7 @@ setuptools.setup(
     ],
     python_requires='>=3.6,<3.9',
     install_requires=[
-        'librosa', 'vamp'
+        'numpy', 'librosa', 'vamp'
     ],
     package_data={'chord_extractor': ['_lib/nnls-chroma.so']}
 )
